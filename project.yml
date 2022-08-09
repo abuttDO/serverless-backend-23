@@ -2,7 +2,6 @@ packages:
   - name: shaastra
     actions:
       - name: backend
-        path: '\'
         limits:
           timeout: 5000
           memory: 256
