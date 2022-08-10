@@ -6,3 +6,10 @@ packages:
         limits:
           timeout: 30000
           memory: 256
+environment:
+  username: ${username}
+  password: ${password}
+  host: ${host}
+  port: ${port}
+  database: ${database}
+  sslmode: ${sslmode}
