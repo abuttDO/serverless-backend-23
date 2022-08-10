@@ -7,8 +7,8 @@ packages:
           memory: 256
 environment:
   username: "${doadmin}"
-  password: "AVNS_JZa9J4NDmMlt8md08Er"
-  host: "backend-23-do-user-7555493-0.b.db.ondigitalocean.com"
-  port: "25060"
-  database: "defaultdb"
-  sslmode: "require"
+  password: "${AVNS_JZa9J4NDmMlt8md08Er}"
+  host: "${backend-23-do-user-7555493-0.b.db.ondigitalocean.com}"
+  port: "${25060}"
+  database: "${defaultdb}"
+  sslmode: "${require}"
