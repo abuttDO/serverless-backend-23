@@ -6,9 +6,9 @@ packages:
           timeout: 5000
           memory: 256
 environment:
-  username: "${username}"
-  password: "${password}"
-  host: "${host}"
-  port: "${port}"
-  database: "${database}"
-  sslmode: "${sslmode}"
+  username: ${username}
+  password: ${password}
+  host: ${host}
+  port: ${port}
+  database: ${database}
+  sslmode: ${sslmode}
