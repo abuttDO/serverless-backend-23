@@ -4,7 +4,7 @@ packages:
        - name: backend
          runtime: 'nodejs:default'
          limits:
-           timeout: 30000
+           timeout: 150000
            memory: 256
 environment:
   username: ${username}
