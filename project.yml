@@ -2,10 +2,10 @@ packages:
   - name: shaastra
     actions:
        - name: backend
-        runtime: 'nodejs:default'
-        limits:
-          timeout: 30000
-          memory: 256
+         runtime: 'nodejs:default'
+         limits:
+           timeout: 30000
+           memory: 256
 environment:
   username: ${username}
   password: ${password}
